@@ -1,4 +1,4 @@
-vendor blobs for cm-12.0 chagallwifi
+vendor blobs for SlimLP 5.1 chagallwifi
 
 If you use these blobs, you have to use my package repackrom as well.
 Othetwise you wil have no wifi in your build, because of missing
