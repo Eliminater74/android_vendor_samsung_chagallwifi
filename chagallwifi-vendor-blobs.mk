@@ -45,14 +45,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/chagallwifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/chagallwifi/proprietary/bin/drmserver:system/bin/drmserver.samsung \
-    vendor/samsung/chagallwifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/chagallwifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/chagallwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/chagallwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/samsung/chagallwifi/proprietary/csc/TGY/system/lib/libWVphoneAPI.so:system/csc/TGY/system/lib/libWVphoneAPI.so \
+    vendor/samsung/chagallwifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/chagallwifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/chagallwifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/chagallwifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/chagallwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/chagallwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/chagallwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/chagallwifi/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/chagallwifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
@@ -66,22 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagallwifi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/chagallwifi/proprietary/etc/gps.xml:system/etc/gps.xml \
     vendor/samsung/chagallwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/chagallwifi/proprietary/bin/lpm:system/bin/lpm \
-    vendor/samsung/chagallwifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/chagallwifi/proprietary/lib/libmaet.so:system/lib/libmaet.so \
-    vendor/samsung/chagallwifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
-    vendor/samsung/chagallwifi/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
-    vendor/samsung/chagallwifi/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-    vendor/samsung/chagallwifi/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-    vendor/samsung/chagallwifi/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
-    vendor/samsung/chagallwifi/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
-    vendor/samsung/chagallwifi/proprietary/media/dock_error.spi:system/media/dock_error.spi \
-    vendor/samsung/chagallwifi/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
-    vendor/samsung/chagallwifi/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-    vendor/samsung/chagallwifi/proprietary/media/percentage.spi:system/media/percentage.spi \
-    vendor/samsung/chagallwifi/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-    vendor/samsung/chagallwifi/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
-    vendor/samsung/chagallwifi/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/chagallwifi/proprietary/vendor/firmware/setfile_6b2_eeprom.bin:system/vendor/firmware/setfile_6b2_eeprom.bin \
